@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #2B2B2D;
+    padding: 20px;
+}
+
+#navbar .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#navbar .box .logo {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+#navbar .box .navbar-items {
+    width: 30%;
+}
+
+#navbar .box .navbar-items ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .box .navbar-items ul li {
+    list-style: none;
+}
+
+#navbar .box .navbar-items ul li a {
+    text-decoration: none;
+    color: #D4D4D4;
+    font-size: 18px;
+}
+
+#navbar .box .navbar-items ul li a:hover {
+    color: #F8C207;
+}
+
+#banner {
+    background-image: url(/vendors/image/header-bg.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner .banner-content h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 190px;
+    margin-left: 28px;
+}
+
+#banner .banner-content h1 {
+    color: #FFFFFF;
+    font-size: 80px;
+    margin-bottom: 80px;
+    margin-left: 95px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#banner .banner-content a {
+    border: 1px solid black;
+    background-color: #FFC800;
+    padding: 25px 45px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    text-align: center
+}
+
+#services {
+    width: 100%;
+    height: 400px;
+}
+
+#services .services-info {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#services .services-info h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#services .services-info p {
+    margin-top: 20px;
+    color: #6C7DA9;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+#services .services-items {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+#services .services-items .card {
+    text-align: center;
+    width: 33.33%;
+    padding: 0 20px;
+}
+
+#services .services-items .card .icon {
+    background-color: #FFC800;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#services .services-items .card .icon i {
+    color: white;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+
+#services .services-items .card h3 {
+    margin-bottom: 20px;
+}
+
+#services .services-items .card p {
+    color: #b7b8bb;
+}
+
+#portfolio {
+    width: 100%;
+}
+
+#portfolio .portfolio-content {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#portfolio .portfolio-content h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#portfolio .portfolio-content p {
+    margin-top: 20px;
+    color: #6C7DA9;
+    font-size: 18px;
+}
+
+#portfolio .portfolio-items {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+#portfolio .portfolio-items .card {
+    padding: 30px;
+    width: 33.33%;
+}
+
+#portfolio .portfolio-items .card .card-w3 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+}
+
+#portfolio .portfolio-items .card .img-card img {
+    height: 300px;
+    width: 100%;
+}
+
+#portfolio .portfolio-items .card .card-w3 .img-icon {
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #F8C207;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+
+#portfolio .portfolio-items .card .card-w3:hover .img-icon {
+    display: flex;
+    opacity: 0.9;
+    visibility: visible;
+}
+
+#portfolio .portfolio-items .portfolio-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about .about-header {
+    text-align: center;
+    margin-top: 110px;
+}
+
+#about .about-header h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#about .about-header p {
+    margin-top: 20px;
+    color: #9498a1;
+    font-size: 18px;
+}
+
+#about .about-card {
+    width: 50%;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#about .about-card .card-content {
+    margin-left: 160px;
+    text-align: end;
+    padding: 15px;
+}
+
+#about .about-card .card-content p {
+    color: #787879;
+    font-weight: 800;
+}
+
+#about .about-card .card-image img {
+    border: 5px solid #e7d8d8;
+    border-radius: 50%;
+    height: 134px;
+    margin-top: 35px;
+}
+
+#about .about-content.row-reverse .about-card {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin-left: 650px;
+}
+
+#about .about-content.row-reverse .about-card .card-content {
+    text-align: start;
+    margin-left: 8px;
+    margin-right: 132px;
+    margin-top: 10px;
+
+}
+
+#about .border-radius {
+    border: 5px solid rgb(214, 214, 211);
+    width: 10%;
+    height: 124px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8C207;
+    color: white;
+    font-size: 16px;
+    margin-left: 652px;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+#team .team-header {
+    text-align: center;
+    margin-top: 110px;
+}
+
+#team .team-header h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#team .team-header p {
+    margin-top: 20px;
+    color: #9498a1;
+    font-size: 18px;
+}
+
+#team .team-member .team-card .team-image img {
+    border: 5px solid #dbcdcd;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#team .team-member {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#team .team-member .team-card .team-icon .icon i {
+    border: 1px solid black;
+    height: 35px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#team .team-member .team-card .team-icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+#team .team-member .team-card .team-content {
+    padding: 10px;
+}
+
+#team .team-member .team-card .team-content h1 {
+    margin-bottom: 10px;
+}
+
+#team .team-p {
+    margin-top: 40px;
+    width: 45%;
+    margin-left: 335px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #5a5252;
+}
+
+#team .image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+#team .image-gallery img {
+    height: 100px;
+    width: 25%;
+    padding: 20px 50px;
+}
+
+#contact {
+    background-image: url(https://cdn.pixabay.com/photo/2012/01/09/09/59/earth-11595_960_720.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+
+}
+
+#contact .contact-header {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#contact .contact-header h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#contact .contact-header p {
+    margin-top: 20px;
+    color: #dbdbdb;
+    font-size: 18px;
+}
+
+#contact .contact-inputs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#contact .contact-inputs .left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contact .contact-inputs .left .my-inputs {
+    height: 60px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#contact .contact-inputs .right textarea {
+    width: 500px;
+    height: 230px;
+    border-radius: 15px;
+
+}
+
+#contact .send-message {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+#contact .send-message a {
+    text-decoration: none;
+    color: white;
+    background-color: #FFC800;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
